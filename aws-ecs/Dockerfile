@@ -1,4 +1,4 @@
-FROM python:3-stretch
+FROM buildpack-deps
 
 LABEL "name"="deploy-to-aws-ecs"
 LABEL "maintainer"="David Staheli"
